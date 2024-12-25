@@ -1,0 +1,10 @@
+<div class="recommendations-container">
+    <h1>Code Review Recommendations</h1>
+    <div *ngFor="let category of recommendations | keyvalue; trackBy: trackByKey">
+      <h2>{{ category.key }}</h2>
+      <ul>
+        <li *ngFor="let item of category.value; trackBy: trackByItem">{{ item }}</li>
+      </ul>
+    </div>
+  </div>
+  

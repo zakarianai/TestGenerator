@@ -1,0 +1,33 @@
+.recommendations-container {
+    margin: 20px auto;
+    max-width: 800px;
+    font-family: Arial, sans-serif;
+    line-height: 1.6;
+  }
+  
+  h1 {
+    text-align: center;
+    color: #333;
+  }
+  
+  h2 {
+    color: #0056b3;
+    margin-top: 20px;
+    border-bottom: 2px solid #0056b3;
+    padding-bottom: 5px;
+  }
+  
+  ul {
+    list-style-type: disc;
+    padding-left: 20px;
+  }
+  
+  li {
+    margin-bottom: 10px;
+    color: #555;
+  }
+  
+  li::marker {
+    color: #0056b3;
+  }
+  
